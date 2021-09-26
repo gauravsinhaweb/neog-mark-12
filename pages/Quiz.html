@@ -1,0 +1,92 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../Style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangle Quiz</title>
+  </head>
+  <body>
+    <nav>
+      <a href="./Quiz.html">Quiz</a>
+      <a href="./Ishypotenuse.html">Is Hypotenuse</a>
+      <a href="./Istriangle.html">Is Triangle</a>
+    </nav>
+    <div class="flex">
+      <h1 style="margin-bottom: 8rem">Triangle Quiz</h1>
+      <form class="quiz-form">
+        <div>
+          <p>
+            <strong>1.</strong> A triangle where all sides are equal has which
+            of following angles?
+          </p>
+        </div>
+        <label for="angle1"
+          ><input
+            style="height: 20px; width: 20px; vertical-align: middle"
+            type="radio"
+            value="60° 60° 60°"
+            name="ans1"
+            class="ans-btn"
+          />60° 60° 60°</label
+        >
+        <label for="angle1"
+          ><input
+            style="height: 20px; width: 20px; vertical-align: middle"
+            type="radio"
+            value="30° 60° 90°"
+            name="ans1"
+            class="ans-btn"
+          />30° 60° 90°</label
+        >
+        <label for="angle1"
+          ><input
+            style="height: 20px; width: 20px; vertical-align: middle"
+            type="radio"
+            value="45° 45° 90°"
+            name="ans1"
+            class="ans-btn"
+          />45° 45° 90°</label
+        >
+
+        <div>
+          <p>
+            <strong>2.</strong> In which triangle all 3 angles measure less than
+            90 degrees?
+          </p>
+        </div>
+        <label for="angle1"
+          ><input
+            style="height: 20px; width: 20px; vertical-align: middle"
+            type="radio"
+            value="obtuse"
+            name="ans2"
+            class="ans-btn"
+          />obtuse</label
+        >
+        <label for="angle1"
+          ><input
+            style="height: 20px; width: 20px; vertical-align: middle"
+            type="radio"
+            value="acute"
+            name="ans2"
+            class="ans-btn"
+          />acute</label
+        >
+        <label for="angle1"
+          ><input
+            style="height: 20px; width: 20px; vertical-align: middle"
+            type="radio"
+            value="right angle"
+            name="ans2"
+            class="ans-btn"
+          />right angle</label
+        >
+      </form>
+
+      <button id="submit-btn" style="margin-top: 6rem">Submit</button>
+      <div id="output"></div>
+    </div>
+    <script src="../script/Quiz.js"></script>
+  </body>
+</html>
